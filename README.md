@@ -13,6 +13,9 @@ All credit for the original design and implementation goes to amehime.
 
 # Usage
 - clone
+```bash
+git clone
+```
 - update `theme` fragment as `shoka-custom`
 - Install the necessary plugins
   - [hexo-renderer-multi-markdown-it](https://www.npmjs.com/package/hexo-renderer-multi-markdown-it)
@@ -20,6 +23,14 @@ All credit for the original design and implementation goes to amehime.
   - [hexo-algoliasearch](https://www.npmjs.com/package/hexo-algoliasearch)
   - [hexo-symbols-count-time](https://www.npmjs.com/package/hexo-symbols-count-time)
   - [hexo-feed](https://www.npmjs.com/package/hexo-feed)
+```bash
+npm un hexo-renderer-marked --save
+npm i hexo-renderer-multi-markdown-it --save
+npm install hexo-autoprefixer --save
+npm install hexo-algoliasearch --save
+npm install hexo-symbols-count-time
+npm install hexo-feed --save-dev
+```
 
 There is a recommended configuration for hexo config:
 ```yaml
@@ -112,6 +123,24 @@ feed:
         enable: true
         template: "themes/shoka/layout/_alternate/json.ejs"
         output: "feed.json"
+```
+
+and a recommended configuration for hexo images
+```bash
+mkdir source/_data
+nano source/_data/images.yml
+```
+```yaml
+- https://ooo.0x0.ooo/2023/03/09/YS2LU.jpg
+- https://ooo.0x0.ooo/2023/03/09/YSj7p.jpg
+- https://ooo.0x0.ooo/2023/03/09/YS6XY.jpg
+- https://ooo.0x0.ooo/2023/03/09/YSIlc.jpg
+- https://ooo.0x0.ooo/2023/03/09/YQSYM.jpg
+- https://ooo.0x0.ooo/2023/03/09/Y0xvg.jpg
+- https://ooo.0x0.ooo/2023/03/09/Y0iNK.jpg
+- https://ooo.0x0.ooo/2023/03/09/Y0zdB.jpg
+- https://ooo.0x0.ooo/2023/03/09/Y0kTl.jpg
+- https://ooo.0x0.ooo/2023/03/09/Y0hOs.jpg
 ```
 
 # Modifications
