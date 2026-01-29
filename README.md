@@ -144,15 +144,16 @@ nano source/_data/images.yml
 ```
 
 # Modifications
-- Disable ruby, polyfill, valine, quicklink, lazyload, exturl, instantsearch functionalities, titletime
+- Disable ruby, polyfill, valine, lazyload, exturl, instantsearch functionalities, titletime
 - Disable copyright info copying
 - Customize header file
 
 ruby is for furigana in Japanese text, which is not needed here, and may cause rendering issues on KaTeX pages.
 polyfill is not needed now, and may cause warnings in console.
 valine is a comment system that I do not use.
-quicklink will cause unexpected password prompt on some pages. Since I enabled nginx authentication
 lazyload causes issues when using custom HTML tags.
 exturl is not needed.
+
+Improved Algolia search results to display content snippets with highlighting.
 
 copyright will make copying text troublesome.
