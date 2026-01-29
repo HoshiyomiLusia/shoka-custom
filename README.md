@@ -14,9 +14,9 @@ All credit for the original design and implementation goes to amehime.
 # Usage
 - clone
 ```bash
-git clone
+git clone https://github.com/HoshiyomiLusia/shoka-custom.git ./themes/shoka
 ```
-- update `theme` fragment as `shoka-custom`
+- update `theme` fragment as `shoka`
 - Install the necessary plugins
   - [hexo-renderer-multi-markdown-it](https://www.npmjs.com/package/hexo-renderer-multi-markdown-it)
   - [hexo-autoprefixer](https://www.npmjs.com/package/hexo-autoprefixer)
